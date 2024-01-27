@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="section_nav d-flex">
+        <div class="section_nav">
             <div class="left_nav d-flex d-align-center">
                 <div class="section-logo d-flex d-align-center">
                     <div class="box-img-logo">
@@ -19,7 +19,7 @@
             </div>
             <div class="center_nav">
                 <ul class="d-align-center d-flex">
-                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#" class="active">Dashboard</a></li>
                     <li><a href="#">Profile</a></li>
                     <li><a href="#">Messages</a></li>
                     <li><a href="#">About us</a></li>
@@ -32,7 +32,6 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                           </svg>
-                          
                     </a>
 
                     <a href="#">
@@ -58,6 +57,21 @@
                         <img src="img/profile.jpg" alt="">
                     </div>
                 </div>
+            </div>
+            <div class="nav_mobile">
+                <input type="checkbox" id="toggle_nav" hidden>
+                <label for="toggle_nav" class="label_toggle_nav">
+                    <span class="line line_top"></span>
+                    <span class="line line_mid"></span>
+                    <span class="line line_bottom"></span>
+                </label>
+                <ul class="list_nav_mobile">
+                    <li><a href="#" class="active">Dashboard</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Messages</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
             </div>
         </div>
     </div>
